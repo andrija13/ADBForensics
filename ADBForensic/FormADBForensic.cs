@@ -130,7 +130,7 @@ namespace ADBForensic
         {
             try
             {
-                ExportFile("/data/data/com.android.providers.telephony/databses/contacts2.db");
+                ExportFile("/data/data/com.android.providers.contacts/databases/contacts2.db");
             }
             catch (Exception ex)
             {
